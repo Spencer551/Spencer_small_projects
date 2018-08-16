@@ -1,0 +1,17 @@
+git config --global user.name "Spencer551"
+git config --global user.email "752148946@qq.com"
+
+ssh-keygen -t rsa -C "752148946@qq.com"
+
+git@github.com:Spencer551/Spencer_small_projects.git
+
+
+git clone git@github.com:Spencer551/Spencer_small_projects.git
+
+git pull
+
+git add ./(当前目录，或者单独某个文件)
+
+git commit -m '更新说明'
+
+git push origin master
